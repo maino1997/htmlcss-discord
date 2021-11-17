@@ -174,11 +174,11 @@ section{
 
 .main-footer{
     width: 600px;
-    /* background-color: crimson; */
     margin: 0 auto;
-    /* text-align: center; */
+    text-align: center;
     background-image: url(img/stars.svg);
-     background-size: cover; 
+     background-size: contain;
+     margin-bottom: 150px;
 } 
 
 .main-footer a{
