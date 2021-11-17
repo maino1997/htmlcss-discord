@@ -12,6 +12,7 @@ header{
 
 main img{
     width: 100%;
+    height: 100%;
 }
 
 /* Utilites */
@@ -141,6 +142,11 @@ main section{
 .row{
     margin-left: -25px;
     margin-right: -25px;
+}
+
+main .row h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .reverse:first-of-type {
