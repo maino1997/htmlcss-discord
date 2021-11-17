@@ -6,9 +6,17 @@
     box-sizing: border-box;
 }
 
+/* Utilites */
+
 .container{
     width: 1000px;
     margin: 0 auto;
+}
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: '';
 }
 
 .header-bar{
@@ -68,4 +76,10 @@ li a{
 
 #logo{
     vertical-align: middle;
+}
+
+.spotlight{
+    background-image: url(img/jumbo.png);
+    min-height: 400px;
+    background-size: cover;
 }
