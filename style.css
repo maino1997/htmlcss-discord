@@ -145,5 +145,14 @@ section{
     margin-left: 100px;
     height: 100%;
     text-align: left;
+}
 
+.third-section-title{
+    text-align: center;
+}
+
+.third-section-title h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
 }
