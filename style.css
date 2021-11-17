@@ -11,6 +11,8 @@
 .container{
     width: 1000px;
     margin: 0 auto;
+    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+    color: white;
 }
 
 .clearfix::after{
@@ -82,4 +84,18 @@ li a{
     background-image: url(img/jumbo.png);
     min-height: 400px;
     background-size: cover;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.content h2{
+    font-size: 45px;
+    margin-bottom: 40px;
 }
