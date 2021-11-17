@@ -46,6 +46,14 @@ li{
     color: white;
 }
 
+.w-25{
+    width: 25%;
+}
+
+ .w-50{
+    width: 50%;
+}
+
 /* Header-bar */
 
 .header-bar{
@@ -55,13 +63,6 @@ li{
 }
 
 
-header .w-25{
-    width: 25%;
-}
-
-header .w-50{
-    width: 50%;
-}
 
 header li{
     display: inline-block;
@@ -210,4 +211,10 @@ footer h3,h4{
 footer li{
     margin: 15px 0 15px 0;
     color: white;
+}
+
+#btn-footer-right{
+    text-align: right;
+    line-height: 100%;
+    background-color: rgb(113,136,216);
 }
