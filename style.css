@@ -28,6 +28,10 @@ main img{
     content: '';
 }
 
+li{
+    list-style: none;
+}
+
 .text-center{
     text-align: center;
 }
@@ -181,4 +185,29 @@ main section{
 .main-footer h3{
     margin-bottom: 50px;
     font-size: 30px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(35,39,42);
+}
+
+footer .w-17{
+    width: 17.5%;
+}
+
+footer .w-30{
+    width:30%;
+}
+
+footer h3,h4{
+    font-weight: bolder;
+    color: rgb(113,136,216);
+    margin-top: 20px;
+}
+
+footer li{
+    margin: 15px 0 15px 0;
+    color: white;
 }
