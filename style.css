@@ -12,6 +12,9 @@
     width: 1000px;
     margin: 0 auto;
     font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+}
+
+header{
     color: white;
 }
 
@@ -20,6 +23,12 @@
     display: table;
     content: '';
 }
+
+main img{
+    width: 100%;
+}
+
+/* Header blocks */
 
 .header-bar{
     min-height: 80px;
@@ -121,10 +130,14 @@ p{
     background-color: black;
 }
 
-.w-60{
-    width:60%;
+
+.w-55{
+    width: calc(55% - 15px);
+    object-fit: contain;
 }
 
-.w-40{
-    width:40%;
+.w-45{
+    width: calc(45% - 15px);
+    margin-left: 30px;
+    text-align: center;
 }
