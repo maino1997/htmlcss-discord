@@ -106,12 +106,12 @@ li a{
     position: relative;
 }
 
- h2{
+h2{
     font-size: 45px;
     margin-bottom: 70px;
 }
 
-p{
+ header p{
     margin-bottom: 40px;
 }
 
@@ -132,26 +132,26 @@ p{
 }
 
 section{
-    margin-top: 100px;
-}
+     margin-top: 100px 
+     }
 
 .w-55{
-    width: calc(55% - 10px);
-    object-fit: contain;
+    width: calc(55% - 25px);
+    margin-right: 25px;
 }
 
 .w-45{
-    width: calc(45% - 90px);
-    margin-left: 100px;
+    width: calc(45% - 25px) ;
+    margin-left: 25px;
     height: 100%;
-    text-align: left;
 }
 
-.third-section-title{
+
+.last-section-title{
     text-align: center;
 }
 
-.third-section-title h3{
+.last-section-title h3{
     font-size: 30px;
     margin-bottom: 20px;
     font-weight: 900;
