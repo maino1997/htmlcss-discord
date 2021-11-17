@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+header{
+    color: white;
+}
+
+main img{
+    width: 100%;
+}
+
 /* Utilites */
 
 .container{
@@ -14,18 +22,10 @@
     font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
 }
 
-header{
-    color: white;
-}
-
 .clearfix::after{
     clear: both;
     display: table;
     content: '';
-}
-
-main img{
-    width: 100%;
 }
 
 .content{
