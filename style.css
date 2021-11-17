@@ -28,11 +28,7 @@ main img{
     content: '';
 }
 
-.content{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
+.text-center{
     text-align: center;
 }
 
@@ -63,11 +59,6 @@ header .w-50{
     width: 50%;
 }
 
- header nav{
-    text-align: center;
-}
-
-
 header li{
     display: inline-block;
     margin-left: 10px;
@@ -79,7 +70,6 @@ header li a{
     display: inline-block;
     width: 100%;
     height: 100%;
-    text-align: center;
 }
 
 .btn-small{
@@ -105,6 +95,13 @@ header li a{
     min-height: 400px;
     background-size: cover;
     position: relative;
+}
+
+.spotlight .content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .spotlight h2{
@@ -162,11 +159,6 @@ main section{
     height: 100%;
 }
 
-
-.last-section-title{
-    text-align: center;
-}
-
 .last-section-title h3{
     font-size: 30px;
     margin-bottom: 20px;
@@ -176,10 +168,9 @@ main section{
 .main-footer{
     width: 600px;
     margin: 0 auto;
-    text-align: center;
     background-image: url(img/stars.svg);
-     background-size: contain;
-     margin-bottom: 150px;
+    background-size: contain;
+    margin-bottom: 150px;
 } 
 
 .main-footer a{
