@@ -135,13 +135,28 @@ section{
      margin-top: 100px 
      }
 
+.row{
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.reverse:first-of-type {
+    width: calc(45% - 25px);
+    margin-right: 25px;
+}
+
+.reverse:last-of-type{
+    width: calc(55% - 25px);
+    margin-left: 25px;
+}
+
 .w-55{
     width: calc(55% - 25px);
     margin-right: 25px;
 }
 
 .w-45{
-    width: calc(45% - 25px) ;
+    width: calc(45% - 25px);
     margin-left: 25px;
     height: 100%;
 }
