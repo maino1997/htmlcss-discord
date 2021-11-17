@@ -36,41 +36,46 @@ main img{
     text-align: center;
 }
 
+.col{
+    float: left;
+}
 
-/* Header blocks */
+.btn{
+    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Header-bar */
 
 .header-bar{
     min-height: 80px;
     background-color: rgb(49,97,224);
 }
 
-.col{
-    float: left;
-}
 
-.w-25{
+header .w-25{
     width: 25%;
     line-height: 80px;
 }
 
-.w-50{
+header .w-50{
     width: 50%;
     line-height: 80px;
 }
 
-nav{
+ header nav{
     text-align: center;
     vertical-align: middle;
 }
 
 
-li{
+header li{
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-li a{
+header li a{
     color: white;
     font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
     text-decoration: none;
@@ -82,12 +87,10 @@ li a{
 }
 
 .btn-small{
-    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
     font-size: 13px;
     padding: 8px 12px 8px 12px;
     background-color: white;
-    color: black;
-    text-decoration: none;
+    color: black; 
     border-radius: 20px;
 }
 
@@ -99,6 +102,8 @@ li a{
     vertical-align: middle;
 }
 
+/* Spotlight */
+
 .spotlight{
     background-image: url(img/jumbo.png);
     min-height: 400px;
@@ -106,22 +111,20 @@ li a{
     position: relative;
 }
 
-h2{
+.spotlight h2{
     font-size: 45px;
     margin-bottom: 70px;
 }
 
- header p{
+ .spotlight p{
     margin-bottom: 40px;
 }
 
 .btn-big{
-    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
     font-size: 18px;
     padding: 11px 15px 11px 15px;
     background-color: white;
     color: black;
-    text-decoration: none;
     border-radius: 30px;
     margin: 10px;
 }
@@ -131,7 +134,9 @@ h2{
     background-color: black;
 }
 
-section{
+/* MAIN */
+
+main section{
      margin-top: 100px 
      }
 
