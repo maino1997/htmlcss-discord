@@ -28,6 +28,15 @@ main img{
     width: 100%;
 }
 
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+
 /* Header blocks */
 
 .header-bar{
@@ -97,15 +106,7 @@ li a{
     position: relative;
 }
 
-.content{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-    text-align: center;
-}
-
-.content h2{
+ h2{
     font-size: 45px;
     margin-bottom: 70px;
 }
@@ -130,14 +131,19 @@ p{
     background-color: black;
 }
 
+section{
+    margin-top: 50px;
+}
 
 .w-55{
-    width: calc(55% - 15px);
+    width: calc(55% - 10px);
     object-fit: contain;
 }
 
 .w-45{
-    width: calc(45% - 15px);
-    margin-left: 30px;
-    text-align: center;
+    width: calc(45% - 90px);
+    margin-left: 100px;
+    height: 100%;
+    text-align: left;
+
 }
