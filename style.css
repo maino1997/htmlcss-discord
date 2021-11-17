@@ -28,15 +28,16 @@
 
 .col{
     float: left;
-    line-height: 80px;
 }
 
 .w-25{
     width: 25%;
+    line-height: 80px;
 }
 
 .w-50{
     width: 50%;
+    line-height: 80px;
 }
 
 nav{
@@ -118,4 +119,12 @@ p{
 #btn-right{
     color: white;
     background-color: black;
+}
+
+.w-60{
+    width:60%;
+}
+
+.w-40{
+    width:40%;
 }
