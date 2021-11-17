@@ -147,14 +147,6 @@ main .row h2{
     margin-bottom: 50px;
 }
 
-.reverse:first-of-type {
-    width: calc(45% - 50px);
-}
-
-.reverse:last-of-type{
-    width: calc(55% - 50px);
-}
-
 .w-55{
     width: calc(55% - 50px);
 }
