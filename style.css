@@ -41,6 +41,9 @@ li{
     float: left;
 }
 
+main .col{
+    margin: 0 25px;
+}
 .btn{
     font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
     text-decoration: none;
@@ -139,35 +142,30 @@ main section{
      margin-top: 100px 
      }
 
-.row{
-    margin-left: -25px;
-    margin-right: -25px;
-}
-
 main .row h2{
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .reverse:first-of-type {
-    width: calc(45% - 25px);
-    margin-right: 25px;
+    width: calc(45% - 50px);
 }
 
 .reverse:last-of-type{
-    width: calc(55% - 25px);
-    margin-left: 25px;
+    width: calc(55% - 50px);
 }
 
 .w-55{
-    width: calc(55% - 25px);
-    margin-right: 25px;
+    width: calc(55% - 50px);
 }
 
 .w-45{
-    width: calc(45% - 25px);
-    margin-left: 25px;
+    width: calc(45% - 50px);
     height: 100%;
+}
+
+main .row{
+    margin: 0 -25px;
 }
 
 .last-section-title h3{
