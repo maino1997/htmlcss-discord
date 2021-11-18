@@ -15,6 +15,10 @@ main img{
     height: 100%;
 }
 
+main{
+    font-weight: bold;
+}
+
 /* Utilites */
 
 .container{
@@ -59,7 +63,8 @@ main .col{
 }
 
 .p-70{
-    padding: 70px
+    padding: 70px;
+    padding-top: 0;
 }
 
 .text-right{
@@ -96,10 +101,11 @@ header li a{
 
 .btn-small{
     font-size: 13px;
-    padding: 8px 12px 8px 12px;
+    padding: 7px 12px 7px 12px;
     background-color: white;
     color: black; 
     border-radius: 20px;
+    font-weight: bold;
 }
 
 
@@ -117,6 +123,7 @@ header li a{
 }
 
 .spotlight .content{
+    font-weight: bold;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -149,13 +156,14 @@ header li a{
 /* MAIN */
 
 main section{
-     margin-top: 100px ;    
+     margin-top: 100px ;   
      }
 
 
 main .row h2{
     margin-top: 20px;
     margin-bottom: 50px;
+    font-size: 35px;
 }
 
 .w-55{
@@ -204,6 +212,8 @@ main .row{
 
 footer{
     background-color: rgb(35,39,42);
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 footer .w-17{
@@ -217,7 +227,6 @@ footer .w-30{
 footer h3,h4{
     font-weight: bolder;
     color: rgb(113,136,216);
-    margin-top: 20px;
 }
 
 footer li{
@@ -231,9 +240,28 @@ footer li{
 
 }
 
-footer 
+#bandiera{
+    width: 35px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.icons-top{
+    margin-top: 30px;
+    color: white;
+}
+
+.icons-bottom{
+    margin-top: 30px;
+    color: white;
+}
+
+.icons-bottom span{
+    margin-right: 20px;
+}
 
 #btn-footer-right{
     line-height: 38px;
     background-color: rgb(113,136,216);
+    color: white;
 }
