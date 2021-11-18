@@ -148,11 +148,11 @@ header li a{
 
 .spotlight h2{
     font-size: 45px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
  .spotlight p{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .btn-big{
@@ -195,10 +195,15 @@ main .row{
     margin: 0 -25px;
 }
 
-.last-section-title h3{
+.last-section-title{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.last-section-title h2{
     font-size: 30px;
     margin-bottom: 20px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .main-footer{
@@ -229,7 +234,7 @@ main .row{
 footer{
     background-color: rgb(35,39,42);
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 footer .w-17{
