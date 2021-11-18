@@ -58,6 +58,10 @@ main .col{
     width: 50%;
 }
 
+.p-70{
+    padding: 70px
+}
+
 /* Header-bar */
 
 .header-bar{
@@ -209,8 +213,14 @@ footer li{
     color: white;
 }
 
+.lower-footer{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+
 #btn-footer-right{
     text-align: right;
-    line-height: 100%;
+    line-height: 38px;
     background-color: rgb(113,136,216);
 }
