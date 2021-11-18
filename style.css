@@ -66,6 +66,11 @@ main .col{
     text-align: right;
 }
 
+.btn:hover{
+    color: rgb(0, 162, 255);
+}
+
+
 /* Header-bar */
 
 .header-bar{
@@ -136,7 +141,7 @@ header li a{
     margin: 10px;
 }
 
-#btn-right{
+.btn-right{
     color: white;
     background-color: black;
 }
@@ -144,8 +149,9 @@ header li a{
 /* MAIN */
 
 main section{
-     margin-top: 100px 
+     margin-top: 100px ;    
      }
+
 
 main .row h2{
     margin-top: 20px;
@@ -176,12 +182,17 @@ main .row{
     margin: 0 auto;
     background-image: url(img/stars.svg);
     background-size: contain;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 } 
 
-.main-footer a{
+.last-section-button .btn-big{
     background-color: cornflowerblue;
     color: white;
+}
+
+.last-section-button{
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .main-footer h3{
